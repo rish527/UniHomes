@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"/>    
+    <link rel="stylesheet" href="./dash.css">
+    <title>Dashboard</title>
+</head>
+<body>
+    <div class="container">
+        <aside>
+            <div class="top">
+                <div class="logo">
+                    <h1>Uni<span>Homes</span></h1>
+                </div>
+            </div>
+            <div class="sidebar" id="sidebar">
+                <a href="#" class="active">
+                    <span class="material-symbols-outlined">account_circle</span>
+                    <h3>Profile</h3>
+                </a>
+                <a href="#">
+                    <span class="material-symbols-outlined">notifications</span>
+                    <h3>Notification</h3>
+                </a>
+                <a href="#">
+                    <span class="material-symbols-outlined">chat</span>
+                    <h3>Message</h3>
+                    <span class="message-count">23</span>
+                </a>
+            
+                <a href="#">
+                    <span class="material-symbols-outlined">diversity_1</span>
+                    <h3>Find</h3>
+                </a>
+                <a href="#">
+                    <span class="material-symbols-outlined">settings</span>
+                    <h3>Settings</h3>
+                </a>
+                <a href="#">
+                    <span class="material-symbols-outlined">logout</span>
+                    <h3>Logout</h3>
+                </a>
+            </div>
+        </aside>
+
+        <main>
+            <h1>Hey, <span class="name" id="UserName">Rishav</span></h1>
+            
+            <section class="sec1">
+                <div class="cards">
+                    <div class="profile">
+                        <div class="profile-pic">
+                            <img src="https://avatarfiles.alphacoders.com/375/375281.jpeg" alt="avatar">
+                        </div>
+                        <div class="name">
+                            <h2>Rishav Anand</h2>
+                        </div>
+                        <div class="basic-info">
+                            <div class="location">
+                                <span class="material-symbols-outlined">person_pin_circle</span>
+                                <p>New York City, USA</p>
+                            </div>
+                            <div class="gender">
+                                <span class="material-symbols-outlined">wc</span>
+                                <p>Male</p>
+                            </div>
+                            <div class="dob">
+                                <span class="material-symbols-outlined">calendar_month</span>
+                                <p>22/08/2002</p>
+                            </div>
+                            <div class="course">
+                                <span class="material-symbols-outlined">menu_book</span>
+                                <p>Btech</p>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="details">
+                        <h1>Details</h1>
+                        <div class="detl">
+                            <div class="nf1">
+                                <p class="key">Year: </p>
+                                <p class="value">1st</p>
+                            </div>
+                            <div class="nf2">
+                                <p class="key">Sleep Schedule: </p>
+                                <p class="value">After 12AM</p>
+                            </div>
+                            <div class="nf3">
+                                <p class="key">Food Preferences: </p>
+                                <p class="value">Non-Veg</p>
+                            </div>
+                            <div class="nf4">
+                                <p class="key">Smoke/Drink: </p>
+                                <p class="value">No</p>
+                            </div>
+                            <div class="nf5">
+                                <p class="key">State: </p>
+                                <p class="value">Delhi</p>
+                            </div>
+                            <div class="nf6">
+                                <p class="key">Branch: </p>
+                                <p class="value">CS</p>
+                            </div>
+                            <div class="nf6">
+                                <p class="key">Clean Space: </p>
+                                <p class="value">Yes</p>
+                            </div>
+                            <div class="nf6">
+                                <p class="key">Language: </p>
+                                <p class="value">Hindi</p>
+                            </div>
+                            <div class="nf6">
+                                <p class="key">Share Room before: </p>
+                                <p class="value">Yes</p>
+                            </div>
+                            
+                        </div>
+                        <div class="edit-btn" id="edit-btn">
+                            <button  class="edit">Edit</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="find">
+                    <h1>Find Your Matches Here!</h1>
+                    <a href="#matches"><button id="find">Search Now</button></a>
+                </div>
+            </section>
+            
+            <section class="sec2 hide" id="matches" >
+                <h1>Your Matches</h1>
+
+                <div class="cards">
+                    <div class="match" id="match1">
+                        <div class="profile-pic">
+                            <img src="https://avatarfiles.alphacoders.com/375/375281.jpeg" alt="avatar">
+                        </div>
+                        <div class="name">
+                            <h2>Name</h2>
+                        </div>
+                        <div class="basic-info">
+                            <div class="location">
+                                <span class="material-symbols-outlined">person_pin_circle</span>
+                                <p>Loaction</p>
+                            </div>
+                            <div class="gender">
+                                <span class="material-symbols-outlined">wc</span>
+                                <p>Gender</p>
+                            </div>
+                            <div class="dob">
+                                <span class="material-symbols-outlined">calendar_month</span>
+                                <p>DOB</p>
+                            </div>
+                            <div class="course">
+                                <span class="material-symbols-outlined">menu_book</span>
+                                <p>Course</p>
+                            </div>
+                        </div>
+                        <div class="edit-btn" id="edit-btn">
+                            <button  class="edit">Connect</button>
+                        </div>
+                    </div>
+                    <div class="match" id="match2">
+                        <div class="profile-pic">
+                            <img src="https://avatarfiles.alphacoders.com/375/375281.jpeg" alt="avatar">
+                        </div>
+                        <div class="name">
+                            <h2>Name</h2>
+                        </div>
+                        <div class="basic-info">
+                            <div class="location">
+                                <span class="material-symbols-outlined">person_pin_circle</span>
+                                <p>Loaction</p>
+                            </div>
+                            <div class="gender">
+                                <span class="material-symbols-outlined">wc</span>
+                                <p>Gender</p>
+                            </div>
+                            <div class="dob">
+                                <span class="material-symbols-outlined">calendar_month</span>
+                                <p>DOB</p>
+                            </div>
+                            <div class="course">
+                                <span class="material-symbols-outlined">menu_book</span>
+                                <p>Course</p>
+                            </div>
+                        </div>
+                        <div class="edit-btn" id="edit-btn">
+                            <button  class="edit">Connect</button>
+                        </div>
+                    </div>
+                    <div class="match" id="match3">
+                        <div class="profile-pic">
+                            <img src="https://avatarfiles.alphacoders.com/375/375281.jpeg" alt="avatar">
+                        </div>
+                        <div class="name">
+                            <h2>Name</h2>
+                        </div>
+                        <div class="basic-info">
+                            <div class="location">
+                                <span class="material-symbols-outlined">person_pin_circle</span>
+                                <p>Loaction</p>
+                            </div>
+                            <div class="gender">
+                                <span class="material-symbols-outlined">wc</span>
+                                <p>Gender</p>
+                            </div>
+                            <div class="dob">
+                                <span class="material-symbols-outlined">calendar_month</span>
+                                <p>DOB</p>
+                            </div>
+                            <div class="course">
+                                <span class="material-symbols-outlined">menu_book</span>
+                                <p>Course</p>
+                            </div>
+                        </div>
+                        <div class="edit-btn" id="edit-btn">
+                            <button  class="edit">Connect</button>
+                        </div>
+                    </div>
+                    <div class="match" id="match4">
+                        <div class="profile-pic">
+                            <img src="https://avatarfiles.alphacoders.com/375/375281.jpeg" alt="avatar">
+                        </div>
+                        <div class="name">
+                            <h2>Name</h2>
+                        </div>
+                        <div class="basic-info">
+                            <div class="location">
+                                <span class="material-symbols-outlined">person_pin_circle</span>
+                                <p>Loaction</p>
+                            </div>
+                            <div class="gender">
+                                <span class="material-symbols-outlined">wc</span>
+                                <p>Gender</p>
+                            </div>
+                            <div class="dob">
+                                <span class="material-symbols-outlined">calendar_month</span>
+                                <p>DOB</p>
+                            </div>
+                            <div class="course">
+                                <span class="material-symbols-outlined">menu_book</span>
+                                <p>Course</p>
+                            </div>
+                        </div>
+                        <div class="edit-btn" id="edit-btn">
+                            <button  class="edit">Connect</button>
+                        </div>
+                    </div>
+                    <div class="match" id="match5">
+                        <div class="profile-pic">
+                            <img src="https://avatarfiles.alphacoders.com/375/375281.jpeg" alt="avatar">
+                        </div>
+                        <div class="name">
+                            <h2>Name</h2>
+                        </div>
+                        <div class="basic-info">
+                            <div class="location">
+                                <span class="material-symbols-outlined">person_pin_circle</span>
+                                <p>Loaction</p>
+                            </div>
+                            <div class="gender">
+                                <span class="material-symbols-outlined">wc</span>
+                                <p>Gender</p>
+                            </div>
+                            <div class="dob">
+                                <span class="material-symbols-outlined">calendar_month</span>
+                                <p>DOB</p>
+                            </div>
+                            <div class="course">
+                                <span class="material-symbols-outlined">menu_book</span>
+                                <p>Course</p>
+                            </div>
+                        </div>
+                        <div class="edit-btn" id="edit-btn">
+                            <button  class="edit">Connect</button>
+                        </div>
+                    </div>
+                    
+                      
+        
+                </div>
+                
+            </section>
+
+        </main>
+
+        
+    </div>
+
+    <script src="./dash.js"></script>
+    <script src="./data.js"></script>
+    <script src="./matches.js"></script>
+</body>
+</html>

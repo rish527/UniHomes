@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./register.css">
+    <title>Register</title>
+</head>
+<body>
+    <div class="container">
+        <form action="/registerSubmit" method="post" class="register-box">
+            <div class="top">
+                <div class="left">
+                    <img src="./assets/roomates2.jpg" alt="">
+                </div>
+                <div class="right">
+                    <div class="head">
+                        <div class="logo">
+                            <h1>Uni<span>Homes</span></h1>
+                        </div>
+                        
+                    </div>
+                    <div class="mini">                   
+                        <input type="text" id="username" name="username" placeholder="Username"><br><br>
+                        <input type="text" id="email" name="email" placeholder="Email"><br><br>
+                        <input type="text" id=",name" name="name" placeholder="Name"><br><br>
+                        <input type="password" id="password" name="password" placeholder="Password"><br><br>
+                       
+                        <div class="next">
+                            <button type="next" id="next">Next</button>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+            <div class="bottom hide" id="bottom">
+                <h2 class="sub-head">Enter  your personal information</h2>
+
+                <div class="user-input">
+                    <div class="box">
+                        <label for="sex">Sex:</label>
+                        <select name="sex" id="" class="selection_box">
+                            <option value="Male">Male</option>
+                            <option value="Female">Female</option>
+                            <option value="Other">Other</option>
+                        </select>
+                    </div>
+                    <div class="box">
+                        <label for="course">Course:</label>
+                        <select name="course" id="" class="selection_box">
+                            <option value="Btech">Btech</option>
+                            <option value="others">Others</option>
+                        </select>
+                    </div>
+                    <div class="box">
+                        <label for="year">Year:</label>
+                        <select name="year" id="" class="selection_box">
+                            <option value="1">1st Year</option>
+                            <option value="2">2nd Year</option>
+                            <option value="3">3rd Year</option>
+                            <option value="4">4th Year</option>
+                        </select>
+                    </div>
+                    
+                    <div class="box">
+                        <label for="sleep">Sleep Schedule:</label>
+                        <select name="sleep" id="" class="selection_box">
+                            <option value="after12">After 12AM</option>
+                            <option value="before12">Between 10PM to 12AM</option>
+                        </select>
+                    </div>
+                    <div class="box">
+                        <label for="food">Food Preferences:</label>
+                        <select name="food" id="" class="selection_box">
+                            <option value="veg">Veg</option>
+                            <option value="non_veg">Non Veg</option>
+                        </select>
+                    </div>
+                    <div class="box">
+                        <label for="smoke">Do you Smoke/Drink?:</label>
+                        <select name="smoke" id="" class="selection_box">
+                            <option value="yes">Yes</option>
+                            <option value="no">No</option>
+                        </select>
+                    </div>
+                    <div class="box">
+                        <label for="state">State:</label>
+                        <select name="state" id="" class="selection_box">
+                            <option value="delhi">Delhi</option>
+                            <option value="up">UP</option>
+                            <option value="bihar">Bihar</option>
+                            <option value="others">Others</option>
+                        </select>
+                    </div>
+                    <div class="box">
+                        <label for="branch">Branch:</label>
+                        <select name="branch" id="" class="selection_box">
+                            <option value="cs">CS</option>
+                            <option value="civil">Civil</option>
+                            <option value="mechanical">Mechanical</option>
+                            <option value="others">Others</option>
+                        </select>
+                    </div>
+                    <div class="box">
+                        <label for="religion">Religion:</label>
+                        <select name="religion" id="" class="selection_box">
+                            <option value="hindu">Hindu</option>
+                            <option value="mulslim">Mulslim</option>
+                            <option value="cristain">Cristain</option>
+                            <option value="others">Others</option>
+                        </select>
+                    </div>
+                    <div class="box">
+                        <label for="clean">Do you like to keep your space clean?:</label>
+                        <select name="clean" id="" class="selection_box">
+                            <option value="yes">Yes</option>
+                            <option value="maybe">Maybe</option>
+                        </select>
+                    </div>
+                    <div class="box">
+                        <label for="language">Language Preferences:</label>
+                        <select name="language" id="" class="selection_box">
+                            <option value="hindi">Hindi</option>
+                            <option value="english">English</option>
+                        </select>
+                    </div>
+                    <div class="box">
+                        <label for="shared">Shared a room with someone before?:</label>
+                        <select name="shared" id="" class="selection_box">
+                            <option value="yes">Yes</option>
+                            <option value="no">No</option>
+                        </select>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="submit-btn hide" id="submit-btn">
+                <button type="submit" class="submit">Submit</button>
+            </div>
+        </form>
+        
+    </div>
+
+    <script src="./register.js"></script>
+</body>
+</html>
